@@ -1,0 +1,63 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin-top: -20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-radius: 25px;
+}
+
+.MuiCircularProgress-colorPrimary {
+    color: green !important;
+}
+
+.MarkButton {
+    height: 50px;
+    width: 120px;
+    font-size: 15px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 800;
+    margin-top: 2%;
+    margin-left: 76%;
+    color:rgb(89 90 76);
+    background-color: rgb(170 227 97);
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #b7e789;
+    cursor: pointer;
+}
+
+.MarkButton:disabled {
+    opacity: 0.7;
+    cursor: default;
+}
+
+:target{
+    color:red;
+}
+/*
+@media (min-width: 320px) { 
+    .list{
+        padding:0px;
+        margin: 20px 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .list {
+        padding: 40px;
+        margin: 40px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .list {
+        padding: 50px;
+        margin: 60px;
+    }
+}
+*/

@@ -1,0 +1,51 @@
+.Logo {
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.Logo h1 {
+    font-size: 50px;
+    /** font-family: 'Shadows Into Light', cursive;**/
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    color: #646658;
+}
+
+/*
+@media (min-width: 320px) { 
+    .Logo h1{
+        font-size: 30px;
+        white-space: nowrap;
+    }
+
+    .Logo img{
+        max-height: 100px;
+    }
+    .Logo {
+        padding: 0px;
+        margin: 10px;
+        width: 100%;
+        word-break: break-word;
+        padding: 2px 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Logo {
+        height: 100%;
+        padding: 10px;
+        display:flex;
+    }
+
+    .Logo img{
+        max-height: 100%;
+    }
+
+    .Logo h1 {
+        font-size: 50px;
+    }
+}*/

@@ -1,0 +1,68 @@
+.Card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    width: 300px;
+    height: 130px;
+    padding: 4px;
+    margin: 9px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card:hover {
+    cursor: pointer;
+}
+
+.Card img {
+    padding-left: 15px
+}
+
+.Card p {
+    /** font-family: 'Shadows Into Light', cursive;**/
+    font-size: 35px;
+    padding-right: 15px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+div[target=dev] p{
+    font-size: 25px;
+}
+
+/*
+@media (min-width: 320px) { 
+    .Card {
+        width: 93%;
+        height: 90%;
+        margin-bottom: 20px;
+    }
+
+    .Card p {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Card {
+        width: 300px;
+        height: 130px;
+        margin: 9px;
+    }
+
+    .Card p {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .Card {
+        width: 400px;
+        height: 160px;
+        margin: 20px;
+    }
+    .Card p {
+        font-size: 40px;
+    }
+}*/

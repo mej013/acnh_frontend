@@ -1,0 +1,330 @@
+.title p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.title img {
+    height: 130px;
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.artTitle p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.artist p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin: 0 90px;
+    margin-bottom: 30px;
+}
+
+.source p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+
+.uses {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 30px;
+    border-top: 3px dashed rgb(253, 161, 23);
+}
+
+.uses p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.note {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 30px;
+    border-top: 3px dashed rgb(253, 161, 23);
+}
+
+.note p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.price {
+    height: 35px;
+    margin: 15px 0;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe3d0
+}
+
+.price img {
+    height: 40px;
+}
+
+.price p {
+    font-size: 23px;
+    /** font-family: 'Shadows Into Light', cursive;**/
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 500;
+}
+
+.ava {
+    display: table;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    table-layout: fixed;
+}
+
+.ava div {
+    display: table-cell;
+    text-align: center;
+}
+
+.ava p {
+    margin: auto;
+    padding-top: 10px;
+    font-size: 13px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 500;
+}
+
+#NS_title {
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 45px;
+    height: 15px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600;
+}
+
+.month {
+    margin-top: 0px;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.month div {
+    display: inline-block;
+    width: 45px;
+    height: 10px;
+    margin-left: 10px;
+}
+
+.month p {
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.534);
+    font-weight: 500;
+    font-family: 'Chakra Petch', sans-serif;
+    border: solid 2px rgba(128, 128, 128, 0.534);
+    border-radius: 5px;
+}
+
+.true p {
+    background-color: rgb(247, 175, 128);
+    color: black;
+    border: solid 2px rgb(179, 178, 178);
+}
+
+.time {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-left: 38px;
+    margin-right: 29px;
+    margin-bottom: 20px;
+}
+
+.time div {
+    width: 70%;
+    max-width: 8%;
+    height: 20px;
+}
+
+.time p {
+    font-size: 10px;
+    color: rgba(128, 128, 128, 0.534);
+}
+
+#timeN_true p {
+    background-color: rgb(255, 239, 94);
+    color: black;
+}
+
+#timeS_true p {
+    background-color: rgb(255, 239, 94);
+    color: black;
+}
+
+.phrase {
+    margin: 10 35px;
+}
+
+.phrase p {
+    border: solid 4px rgb(247, 175, 128);
+    padding: 10px 12px;
+    margin: 45px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(248, 221, 163, 0.493);
+}
+
+.vlist {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.variants p {
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.recipe {
+    align-items: center;
+    justify-content: center;
+}
+
+.recipe h5 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.recipeInfo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0;
+    border-radius: 15px;
+    background-color: rgb(255, 234, 219);
+}
+
+.recipeInfo p {
+    /** font-family: 'Shadows Into Light', cursive;**/
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.recipeInfo img {
+    height: 50px;
+}
+
+.materialInfo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    height: 90px;
+    margin: 10px;
+    padding: 10px 0;
+    border-radius: 15px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    background-color: rgb(255, 223, 199);
+}
+
+.materialInfo p {
+    padding: 0px 13px;
+}
+
+.materialInfo img {
+    height: 70%;
+    padding: 0px;
+}
+
+.materials {
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.objs {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.objInfo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    margin: 10px;
+    padding: 10px 0;
+    border-radius: 15px;
+    background-color: rgb(255, 234, 219);
+}
+
+.objInfo img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.house {
+    margin-top: -30px;
+}
+
+.saying {
+    width: 230px;
+    border-radius: 15px;
+    padding: 5px 20px;
+    text-align: center;
+    background-color: #ffa5a5;
+}
+
+.saying p {
+    color: white;
+    font-size: 20px;
+}
+
+.song {
+    width: 230px;
+    margin-top: 10px;
+    padding: 20px 20px 2px 20px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #ffd493;
+}
+
+.song p{
+    color: white;
+    font-weight: bolder;
+}
+
+.houseInfo {
+    display: flex;
+}
+
+.vInfo {
+    margin-top: 30px;
+    display: flexbox;
+}

@@ -1,0 +1,104 @@
+.Forms {
+    padding-top: 5%;
+    display: flex;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 25px;
+    color:#505a11;
+    font-weight: 500;
+}
+
+.Register {
+    flex: 1;
+    padding-top:20px;
+    background-color: #c4ef9b;
+}
+
+.Login {
+    flex: 1;
+    padding-top: 120px;
+    background-color: #fff39d;
+}
+
+.FormL {
+    padding: 8px;
+    text-align: right;
+    margin-right: 10%;
+}
+
+.FormL Label{
+    padding: 20px;
+}
+
+.Register Button {
+    margin-top: 20px;
+    margin-left: 45%;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px 15px;
+    background-color: #fff39d;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 800;
+    color:rgb(89 90 76);
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #b7e789;
+    cursor: pointer;
+    
+}
+
+.Register Button:disabled {
+    background-color: #a9a6a6;
+    opacity: 0.5;
+    position: default;
+}
+.FormR {
+    padding: 8px;
+    text-align: right;
+    margin-right: 57%;
+}
+
+.FormR Label {
+    padding: 20px;
+}
+
+input {
+    line-height: 30px;
+    font-size: 18px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    color: #525348;
+}
+
+
+.Login Button {
+    margin-top: 20px;
+    margin-right: 45%;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px 15px;
+    background-color: #c4ef9b;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 800;
+    color:rgb(89 90 76);
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #b7e789;
+    cursor: pointer;
+    
+}
+
+.Login Button:disabled {
+    background-color: #a9a6a6;
+    opacity: 0.5;
+    position: default;
+}
+
+.title {
+    padding-top: 50px;
+    font-size: 50px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    color: #646658;
+
+}

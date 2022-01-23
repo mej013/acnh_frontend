@@ -1,0 +1,213 @@
+.item_card {
+    background-color: #ffe0cc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    width: 170px;
+    height: 170px;
+    margin: 15px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.image {
+    height: 115px;
+    border-radius: 20px 20px 0 0;
+    background-color: #fff0e6;
+    position: relative;
+    background-image: url("../../assets/images/leaf3_small.png");
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.image img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 60%;
+    min-height: 65%;
+}
+
+.image p {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+}
+
+div[target=marked]{
+    position: absolute;
+    top: 90px;
+    right: 10px;
+    width: 55px;
+    border-radius: 25px;
+    background-color: rgb(253, 112, 112);
+}
+
+div[target=unmark] p {
+    color: rgb(0,0,0,0)
+}
+
+.locationNorth {
+    position: absolute;
+    top: 20px;
+    width: 30px;
+    border-radius: 0 25px 25px 0;
+    background-color: rgb(72, 170, 235);
+}
+
+.locationSouth {
+    position: absolute;
+    top: 40px;
+    width: 30px;
+    border-radius: 0 25px 25px 0;
+    background-color: rgb(248, 205, 62)
+}
+
+.locationMonth {
+    position: absolute;
+    top: 90px;
+    width: 36px;
+    border-radius: 0 25px 25px 0;
+    background-color: rgb(120, 196, 21);
+}
+
+.personality {
+    position: absolute;
+    top: 10px;
+    padding: 0 10px 0 5px;
+    border-radius: 0px 25px 25px 0px;
+    background-color: #a5dc86;
+}
+
+.personality p{
+    font-size: 11px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.species {
+    position: absolute;
+    top: 29px;
+    padding: 0 10px 0 5px;
+    border-radius: 0px 25px 25px 0px;
+    background-color: rgb(255, 218, 95);
+}
+
+.species p {
+    font-size: 11px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+/*.locationMark {
+    position: absolute;
+    top: 90px;
+    right: 10px;
+    width: 55px;
+    border-radius: 25px;
+    background-color: rgb(253, 112, 112);
+}*/
+
+.diy {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.diy img {
+    width: 20px;
+    height: auto;
+}
+
+.customize {
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.customize img {
+    width: 20px;
+    height: auto;
+}
+
+.name {
+    font-size: 12px;
+    /** font-family: 'Shadows Into Light', cursive;**/
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+}
+
+.buy {
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy img {
+    height: 23px;
+}
+
+.vnumber {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    background-color: rgb(255, 188, 144);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vnumber p {
+    font-family: 'Chakra Petch', sans-serif;
+    color: white;
+    font-weight: bolder;
+
+}
+
+
+/*
+@media (min-width: 320px) { 
+    .item_card {
+        margin: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .item_card {
+        margin: 15px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .item_card {
+        margin: 25px;
+        width: 200px;
+        height: 200px;
+    }
+    .image {
+        height: 140px;
+    }
+
+    .locationMark {
+        top: 115px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+    
+}*/

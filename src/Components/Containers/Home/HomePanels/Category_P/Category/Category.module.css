@@ -1,0 +1,31 @@
+.CardC {
+    background-color: rgb(255, 172, 46);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.CardC:hover {
+    background-color: rgb(253, 161, 23);
+    cursor: pointer;
+}
+
+.CardC img {
+    width: 70%;
+    height: 70%
+}
+
+.CardC p {
+    font-size: 10px;
+    /** font-family: 'Shadows Into Light', cursive;**/
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding: 0px;
+}

@@ -1,0 +1,7 @@
+.Category_p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}

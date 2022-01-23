@@ -1,0 +1,21 @@
+.variation {
+    text-align: center;
+    height: 125px;
+    width: 115px;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: rgb(255, 234, 219);
+}
+
+.variation img {
+    max-height: 90px;
+    padding-top: 5px;
+}
+
+.variation p {
+    font-size: 12px;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 0px;
+    position: relative;
+    top: -5%;
+}
